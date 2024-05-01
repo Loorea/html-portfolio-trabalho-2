@@ -39,7 +39,8 @@ html{
 }
 
 .nav-list a:hover{
-  color: #FFFFFF;
+  color:#181818;
+  background-color: #1efc1e;
 }
 /* FIM HEADER */
 
@@ -47,9 +48,9 @@ html{
 /* INICIO MAIN */
 .main{
   width: 100%;
-  background-color: #000;
   height: calc(100vh - 80px);
-  background-image: url("images/programador.png");
+  background-color: black;
+  background-image: url("./programador.png");
   display: flex;
   align-items: center;
   padding-left: 10%;
@@ -63,7 +64,7 @@ html{
 .main p {
   font-size: 24px;
   font-style: italic;
-  color: #1e96FC;
+  color: #1efc1e;
   margin-top: 10px;
   margin-bottom: 35px;
 }
@@ -81,6 +82,7 @@ html{
 
 .call-to-action:hover{
   transform: scale(1.1);
+  background-color: #1efc1e;
 }
 
 .main a{
@@ -100,7 +102,7 @@ html{
 
  display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: center;
 }
 
 .about div{
@@ -169,8 +171,29 @@ html{
   color: #FFFFFF;
   margin-top: 18px;
   cursor: pointer;
+  transition: 0.9s;
+}
+.action:hover{
+  transform: scale(1.1);
+  background-color: #ff0909;
 }
 /* FIM PROJECTS */
+.form{
+  padding: 20px;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.form-container{
+  text-align: center;
+}
+.contato{
+  align-content: center;
+}
+
 
 /* INICIO RODAPE */
 footer{
